@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
   
 })
 export class NgModelComponent implements OnInit{
-name:string="gizem";
+yazi:string="yazımı ekledim";
+name:string="yazını yaz";
 constructor() {
-  
+
 }
   ngOnInit(): void {
   
