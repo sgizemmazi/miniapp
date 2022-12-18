@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./two-one-way-data-binding.component.css']
 })
 export class TwoOneWayDataBindingComponent implements OnInit {
-  yazi:string="yazımı ekledim";
-  name:string="yazını yaz";
+  il:string="İstanbul";
+  ilce:string="Merter";
+  yazi:string="Gizem Mazı";
   constructor() {
   
   }
