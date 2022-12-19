@@ -1,7 +1,15 @@
 <h3>One Way Data Binding</h3>
-<h1>String Interpolation</h1>
+<h4>String Interpolation</h4>
 <p>{{il}}</p>
-<h1></h1>
+<p>----------------</p>
+<h4>Property Binding</h4> 
+<p><button type="button" [title]="btnTitle">Örnek 1</button> <input type="button" value="Örnek 2" title={{ilce}}/></p>
+<p>----------------</p>
+<h4>Event Binding</h4>
+<p><button (click)="onSubmit()">Gönder</button></p>
+
 <h3>Two Way Data Binding</h3>
+
 <p>Adı:<input [(ngModel)]="yazi" type="text"/></p>
 <p>Girilen Yazı:{{yazi}}</p>
+

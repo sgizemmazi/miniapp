@@ -9,6 +9,10 @@ export class TwoOneWayDataBindingComponent implements OnInit {
   il:string="İstanbul";
   ilce:string="Merter";
   yazi:string="Gizem Mazı";
+  onSubmit(){
+    console.log('BU BİR MESAJDIR');
+  }
+  btnTitle:string="Ayarları Kaydet";
   constructor() {
   
   }

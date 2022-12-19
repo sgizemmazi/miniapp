@@ -1,12 +1,24 @@
 
 p {
 color:darkcyan;
-padding: 20px;
+padding: 2px;
+font-family:'Courier New', Courier, monospace;
 text-align: center;
 }
-
     h3 {
         color:coral;
-        padding: 20px;
         text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 23px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h4 {
+        text-align: center;
+        color:darkslategray;
+        padding: 2px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    a{
+        text-align: center;
+        padding: 2px;
     }
